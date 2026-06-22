@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import profilePicture from "../assets/profile-picture.png";
 
 interface Props {
@@ -11,7 +12,7 @@ const { name, subtitle } = Astro.props;
 
 <section class="intro">
   <div class="content">
-    <img src={profilePicture.src} alt="trueberryless" class="pfp" />
+    <Image src={profilePicture} alt="trueberryless" class="pfp" />
     <div class="text">
       <h1>Yo, I'm {name}!</h1>
       <p class="subtitle">{subtitle}</p>
