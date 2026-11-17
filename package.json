@@ -9,7 +9,7 @@
     "url": "https://github.com/trueberryless/trueberryless.git"
   },
   "license": "MIT",
-  "author": "trueberryless <trueberryless@gmail.com> (https://trueberryless.org)",
+  "author": "trueberryless <trueberryless@gmail.com> (https://felixs.dev)",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
